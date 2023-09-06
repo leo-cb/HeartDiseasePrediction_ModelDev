@@ -1,0 +1,8 @@
+Databricks_workspace/
+env_dev/
+images/
+mlartifacts/
+mlruns/
+web-app/
+README.md
+notes.txt

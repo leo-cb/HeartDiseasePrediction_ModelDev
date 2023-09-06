@@ -56,6 +56,7 @@ print("Test AUC:", test_auc)
 # export model
 with open("data/gbt_model.pkl", "wb") as model_file:
     pickle.dump(gbt, model_file)
+    print("Model saved to /data/gbt_model.pkl")
     
 # export datasets
 X_train.to_parquet("data/X_train.parquet")
@@ -69,3 +70,5 @@ y_test_df = y_test.to_frame(name="target").reset_index(drop=True)
 y_train_df.to_parquet("data/y_train.parquet")
 y_val_df.to_parquet("data/y_val.parquet")
 y_test_df.to_parquet("data/y_test.parquet")
+
+print("Saved datasets to /data/.")
