@@ -1,5 +1,5 @@
 # Heart Disease Prediction Model Development
-Exploratory data analysis, model development and model explainability for the <a href="https://github.com/leo-cb/HeartDiseasePrediction_WebApp">heart disease web application</a>. The EDA and modelling were performed in Azure Databricks (files in Databricks_workspace). Posteriorely, the GBT model was replicated in the local environment, in create_model.py. The model explainability was implemented with SHAP in explain_model.py.
+Exploratory data analysis, model development and model explainability for the <a href="https://github.com/leo-cb/HeartDiseasePrediction_WebApp">heart disease web application</a>. The EDA and modelling were performed in Azure Databricks (files in Databricks_workspace). Posteriorely, the GBT model was replicated in the local environment, in create_model.py. The model explainability was implemented with SHAP in explain_model.py. Images of the various steps in the pipeline can be found in /images/.
 
 # Getting Started
   
