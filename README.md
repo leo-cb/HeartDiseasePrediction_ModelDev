@@ -67,11 +67,9 @@ To run the scripts with docker, follow these steps:
 
 # Description
 
-## Overview
-
 The following steps were taken:
 
-### Exploratory data analysis done in Azure Databricks with Pyspark
+## Exploratory data analysis done in Azure Databricks with Pyspark
 
 **Files:** Databricks_workspace/eda.ipynb
 
@@ -83,7 +81,7 @@ The following steps were taken:
 
 <img src="images/databricks_feature_importances.png" alt="Feature importances" style="width: 25%;">
 
-### Modelling and model tracking with MLFlow
+## Modelling and model tracking with MLFlow
 
 Modelling was performed with Logistic Regression, AutoML and Gradient-boosted Trees models in Azure Databricks with Pyspark. 
 Model tracking performed with MLFlow. 
@@ -108,13 +106,13 @@ The chosen model for production was the one with the highest AUC in the test set
 
 <img src="images/databricks_f1_models.png" alt="MLFlow F1-score" style="width: 40%;">
 
-### Local GBT model creation
+## Local GBT model creation
 
 
 **Files:** create_model.py
 
 
-### ML explainability with Shapley
+## ML explainability with Shapley
 
 **Files:** explain_model.py
 
@@ -126,6 +124,6 @@ The chosen model for production was the one with the highest AUC in the test set
 
 <img src="images/shap_bar.png" alt="SHAP bar plot" style="width: 40%;">
 
-### Containerization with Docker
+## Containerization with Docker
 
 **Files:** Dockerfile
